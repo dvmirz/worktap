@@ -199,15 +199,12 @@ ul{
 }
 .actual__title{
     margin-top: 109px;
-    margin-left: 80px;
     margin-bottom: 48px;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.02em;
     color: #222222;
-  
-
 }
 
 .actual__item-img img{
@@ -237,13 +234,13 @@ ul{
     color: #222222;
 }
 
-.actual__item-button{
+.button{
   margin-top: 30px;
   display: flex;
   justify-content: center;
   
 }
-.actual__item-button button{
+.button button{
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -254,6 +251,7 @@ ul{
     font-weight: 500;
     border: 1px solid #1DBF73;
     border-radius: 50px;
+    background:transparent;
 }
 .actual__item-button button:hover{
   background: #1DBF73;
@@ -284,20 +282,21 @@ ul{
      
 }
 .watch__all a{
-  background: #F2F0FE;
   color: #1DBF73;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.watch__all{
   border: #F2F0FE;
   border-radius: 20px;
   width: 420px;
   height: 270px;
-}
-.watch__all{
-  
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
+  background: #F2F0FE;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .freelancers__title{
@@ -366,7 +365,6 @@ ul{
 }
 .freelancers__wrapper__title{
   display: flex;
-  flex-wrap: wrap;
   max-width: 380px;
 }
 .freelancers__descr{
@@ -383,7 +381,10 @@ ul{
   justify-content: space-between;
   padding-bottom: 30px;
 }
-     
+.actual__item:hover{
+  box-shadow: 0px 16px 16px rgba(34, 34, 34, 0.04); 
+  transform: translateY(-5px);
+}     
 
     
 
